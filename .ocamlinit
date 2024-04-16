@@ -1,0 +1,17 @@
+#use "topfind";;
+#use "down.top";;
+(* #use_output "dune ocaml top";; *)
+#directory "_build/default/gcp/lib/.gcpLib.objs/byte";;
+#directory "_build/default/gengraph/.gengraph.objs/byte";;
+#directory "_build/default/lib/.tp2.objs/byte";;
+#load "_build/default/gcp/lib/gcpLib.cma";;
+#load "_build/default/lib/tp2.cma";;
+#load "_build/default/gengraph/gengraph.cma";;
+#print_length 1000;;
+open GcpLib;;
+open Gcp;;
+open Gengraph;;
+open Cours;;
+open Programmes;;
+open Tp2;;
+
